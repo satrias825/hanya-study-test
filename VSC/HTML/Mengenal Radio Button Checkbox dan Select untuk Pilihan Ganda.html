@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengenal Radio Button Checkbox dan Select untuk Pilihan Ganda</title>
+</head>
+<body>
+    <form action="/order" method="get">
+        <div>
+            <label for="">Baju</label>
+           <input type="radio" name="baju" id="" value="kemeja"> <label for="">Kemeja</label>
+            <input type="radio" name="baju" id="" value="kaos"> <label for="">Kaos</label>
+            <button type="submit">beli</button>
+        </div>
+        
+        <div>
+            <label for="ukuran">Ukuran</label>
+                <select name="ukuran" id="ukuran">
+                    <option value="s">---pilih ukuran---</option>
+                    <option value="s">small</option>
+                    <option value="m">medium</option>
+                    <option value="l">large</option>
+                </select>
+        </div>
+
+        <div>
+            <label for="sesuai">sesuai pesanan</label>
+                <input type="checkbox" name="sesuai" id="sesuai">
+                <button type="submit">kirim</button>
+        </div>
+    </form>
+</body>
+</html>
