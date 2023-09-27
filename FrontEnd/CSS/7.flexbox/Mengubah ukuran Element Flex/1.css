@@ -1,0 +1,34 @@
+h1 {text-align: center;}
+
+#container {
+    background-color: #4D3C77;
+    width: 90%;
+    /* height: 500px; */
+    margin: 0 auto;
+    border: 5px solid #141E46;
+    display: flex; 
+    /*display: flex; berfungsi mengubah kolom kebaris*/
+    flex-direction: row;
+    justify-content: center;
+    /* 
+    justify-content untuk membuat jarak baris
+    align-content untuk membuat jarak kolom
+    */
+    /* align-content: center; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+container div {
+    color: red;
+    width: 200px;
+    height: 200px;
+    flex-basis: 400px;
+}
+
+div:nth-last-child(3) {
+    flex-grow: 1;
+}
+div:nth-last-child(5) {
+    flex-shrink: 5;
+}

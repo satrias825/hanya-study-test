@@ -1,0 +1,43 @@
+h1 {text-align: center;}
+
+#container {
+    background-color: #4D3C77;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #141E46;
+    display: flex; 
+    /*display: flex; berfungsi mengubah kolom kebaris*/
+    flex-direction: row-reverse;
+    justify-content: center;
+    /* 
+    justify-content untuk membuat jarak baris
+    align-content untuk membuat jarak kolom
+    */
+    align-content: center;
+    align-items: center;
+}
+
+
+/* align-self untuk mengubah posisi kolom setiap objek 
+div:nth-last-child(1) {
+    align-self: flex-start;
+}
+div:nth-last-child(2) {
+    align-self: center;
+}
+div:nth-last-child(3) {
+    align-self: flex-end;
+}
+div:nth-last-child(4) {
+    align-self: center;
+}
+div:nth-last-child(5) {
+    align-self: flex-start;
+} */
+
+#container div {
+    width: 200px;
+    height: 200px;
+    color: red;
+}

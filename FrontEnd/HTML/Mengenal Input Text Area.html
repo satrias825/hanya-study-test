@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengenal Input Text Area</title>
+</head>
+<body>
+    <form action="/shop" method="get">
+        <div>
+            <label for="ukuran">ukuran</label>
+                    <select name="ukuran" id="ukuran">
+                    <option value="u">--pilih ukuran--</option>
+                    <option value="k">kecil</option>
+                    <option value="s">sedang</option>
+                    <option value="b">besar</option>
+        </div>   
+        <P><button type="submit">pilih</button></P>
+
+        <div>
+            <p><label for="check">pilih</label>
+            <input type="checkbox" name="check" id="check"></p>
+        </div>
+        
+        <div>
+        <label for="isi">isi disini</label>
+            <P><textarea name="isi" id="isi" cols="33" rows="1"></textarea></P>
+        </div>
+        <button type="button">kirim</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+h1:hover {text-align: center;
+    text-decoration-line: overline;    
+}
+
+p::after {
+    content: '---------';
+}
+p:nth-last-of-type(1) {
+    font-weight: bolder;
+    cursor: progress;
+    text-decoration-style: double;
+}
+p::first-letter {
+    font-size: xx-large;
+
+}
+p[class] {
+    color: green;
+}
+#aku::first-line {
+    color: blue;
+}
+
+h2:nth-last-of-type(2n) {
+    background-color: grey;
+} 
+
+input {
+    cursor: wait;
+    box-sizing: border-box ;
+}
